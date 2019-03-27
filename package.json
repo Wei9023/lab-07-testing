@@ -1,0 +1,31 @@
+{
+  "name": "lab-07-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wei9023/lab-07-testing.git"
+  },
+  "author": "vanessa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wei9023/lab-07-testing/issues"
+  },
+  "homepage": "https://github.com/Wei9023/lab-07-testing#readme",
+  "dependencies": {
+    "eslint": "^5.15.3",
+    "express": "^4.16.4",
+    "jest": "^24.5.0",
+    "lint": "^1.1.2",
+    "mock": "^0.1.1",
+    "supertest": "^4.0.2"
+  }
+}
